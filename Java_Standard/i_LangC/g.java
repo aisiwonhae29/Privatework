@@ -1,0 +1,16 @@
+package Java_Standard.i_LangC;
+
+public class g {
+	public static void main(String[] args) {
+		StringBuffer sb= new StringBuffer("01");
+		StringBuffer sb2 = sb.append("01");
+		sb.append('4').append(56);
+		
+		StringBuffer sb3 = sb.append(78);
+		sb3.append(9.0);
+		
+		System.out.println("sb = "+sb);
+	}
+		}
+	
+
